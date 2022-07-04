@@ -204,6 +204,3 @@ for e in range(epochs):
         #targets[int(all_values[0])] = 0.99
         #n.train(inputs, targets)
         network = ConvolutionalNeuralNetwork(input_data = inputs, fc_hidden = 200, fc_output = 10, filter_1 = (5, 5), filter_2= (5, 5))
-
-
-
